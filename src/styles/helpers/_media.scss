@@ -3,6 +3,13 @@ $dark-green: #3f505a;
 $light-color: #fff;
 
 .page-main {
+    @media (max-width: 1900px) {
+        min-height: 1280px;
+        &__background {
+            height: 100%;
+    }
+    }
+    
     @media (max-width: 1200px) {
         height: 800px;
     }
@@ -289,6 +296,12 @@ $light-color: #fff;
        
 }
 .page-goals {
+    @media (max-width: 1970px) {
+        &__background {
+            min-height: 1981px;
+        }
+       
+    }
     @media (max-width: 1200px) {
         padding-bottom: 225px;
         &__background {
@@ -1664,6 +1677,17 @@ $light-color: #fff;
         }
     }
 }
+
+.page-yoga {
+    @media (max-width: 1970px){
+        min-height: 733px;
+    &__background {
+        top: 76px;
+    }
+    }
+    
+}
+
 .block-yoga {
     @media (max-width: 1200px) {
         margin-top: 64px;
